@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839E56DF1447C23D00562CB9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E56DE1447C23D00562CB9 /* Cocoa.framework */; };
+		839E56E11447C23D00562CB9 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E56E01447C23D00562CB9 /* MacRuby.framework */; };
+		839E56E81447C23D00562CB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 839E56E61447C23D00562CB9 /* InfoPlist.strings */; };
+		839E56EA1447C23D00562CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E56E91447C23D00562CB9 /* main.m */; };
+		839E56EF1447C23D00562CB9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839E56ED1447C23D00562CB9 /* MainMenu.xib */; };
+		839E56F21447C23D00562CB9 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 839E56F11447C23D00562CB9 /* rb_main.rb */; };
+		839E56F41447C23D00562CB9 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 839E56F31447C23D00562CB9 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839E56DA1447C23D00562CB9 /* Critical Mass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Critical Mass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839E56DE1447C23D00562CB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		839E56E01447C23D00562CB9 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		839E56E51447C23D00562CB9 /* Critical Mass-Info.plist */ = {isa = PBXFileReference; path = "Critical Mass-Info.plist"; sourceTree = "<group>"; };
+		839E56E71447C23D00562CB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		839E56E91447C23D00562CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839E56EB1447C23D00562CB9 /* Critical Mass-Prefix.pch */ = {isa = PBXFileReference; path = "Critical Mass-Prefix.pch"; sourceTree = "<group>"; };
+		839E56EE1447C23D00562CB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		839E56F11447C23D00562CB9 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		839E56F31447C23D00562CB9 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839E56D71447C23D00562CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E56DF1447C23D00562CB9 /* Cocoa.framework in Frameworks */,
+				839E56E11447C23D00562CB9 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839E56CF1447C23D00562CB9 = {
+			isa = PBXGroup;
+			children = (
+				839E56E31447C23D00562CB9 /* Critical Mass */,
+				839E56DD1447C23D00562CB9 /* Frameworks */,
+				839E56DB1447C23D00562CB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839E56DB1447C23D00562CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839E56DA1447C23D00562CB9 /* Critical Mass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839E56DD1447C23D00562CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839E56DE1447C23D00562CB9 /* Cocoa.framework */,
+				839E56E01447C23D00562CB9 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839E56E31447C23D00562CB9 /* Critical Mass */ = {
+			isa = PBXGroup;
+			children = (
+				839E56F31447C23D00562CB9 /* AppDelegate.rb */,
+				839E56EC1447C23D00562CB9 /* Resources */,
+				839E56F01447C23D00562CB9 /* Other Sources */,
+				839E56E41447C23D00562CB9 /* Supporting Files */,
+			);
+			path = "Critical Mass";
+			sourceTree = "<group>";
+		};
+		839E56E41447C23D00562CB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839E56E51447C23D00562CB9 /* Critical Mass-Info.plist */,
+				839E56E61447C23D00562CB9 /* InfoPlist.strings */,
+				839E56E91447C23D00562CB9 /* main.m */,
+				839E56EB1447C23D00562CB9 /* Critical Mass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839E56EC1447C23D00562CB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				839E56ED1447C23D00562CB9 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		839E56F01447C23D00562CB9 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				839E56F11447C23D00562CB9 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		839E56E21447C23D00562CB9 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 839E56FA1447C23D00562CB9 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		839E56D91447C23D00562CB9 /* Critical Mass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839E56F71447C23D00562CB9 /* Build configuration list for PBXNativeTarget "Critical Mass" */;
+			buildPhases = (
+				839E56D61447C23D00562CB9 /* Sources */,
+				839E56D71447C23D00562CB9 /* Frameworks */,
+				839E56D81447C23D00562CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Critical Mass";
+			productName = "Critical Mass";
+			productReference = 839E56DA1447C23D00562CB9 /* Critical Mass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839E56D11447C23D00562CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 839E56D41447C23D00562CB9 /* Build configuration list for PBXProject "Critical Mass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 839E56CF1447C23D00562CB9;
+			productRefGroup = 839E56DB1447C23D00562CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839E56D91447C23D00562CB9 /* Critical Mass */,
+				839E56E21447C23D00562CB9 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839E56D81447C23D00562CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E56E81447C23D00562CB9 /* InfoPlist.strings in Resources */,
+				839E56EF1447C23D00562CB9 /* MainMenu.xib in Resources */,
+				839E56F21447C23D00562CB9 /* rb_main.rb in Resources */,
+				839E56F41447C23D00562CB9 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839E56D61447C23D00562CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E56EA1447C23D00562CB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839E56E61447C23D00562CB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839E56E71447C23D00562CB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		839E56ED1447C23D00562CB9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839E56EE1447C23D00562CB9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839E56F51447C23D00562CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		839E56F61447C23D00562CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		839E56F81447C23D00562CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Critical Mass/Critical Mass-Prefix.pch";
+				INFOPLIST_FILE = "Critical Mass/Critical Mass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		839E56F91447C23D00562CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Critical Mass/Critical Mass-Prefix.pch";
+				INFOPLIST_FILE = "Critical Mass/Critical Mass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		839E56FB1447C23D00562CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		839E56FC1447C23D00562CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839E56D41447C23D00562CB9 /* Build configuration list for PBXProject "Critical Mass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E56F51447C23D00562CB9 /* Debug */,
+				839E56F61447C23D00562CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839E56F71447C23D00562CB9 /* Build configuration list for PBXNativeTarget "Critical Mass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E56F81447C23D00562CB9 /* Debug */,
+				839E56F91447C23D00562CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		839E56FA1447C23D00562CB9 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E56FB1447C23D00562CB9 /* Debug */,
+				839E56FC1447C23D00562CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839E56D11447C23D00562CB9 /* Project object */;
+}
