@@ -20,10 +20,10 @@
 		839E56DA1447C23D00562CB9 /* Critical Mass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Critical Mass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839E56DE1447C23D00562CB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		839E56E01447C23D00562CB9 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		839E56E51447C23D00562CB9 /* Critical Mass-Info.plist */ = {isa = PBXFileReference; path = "Critical Mass-Info.plist"; sourceTree = "<group>"; };
+		839E56E51447C23D00562CB9 /* Critical Mass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Critical Mass-Info.plist"; sourceTree = "<group>"; };
 		839E56E71447C23D00562CB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		839E56E91447C23D00562CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		839E56EB1447C23D00562CB9 /* Critical Mass-Prefix.pch */ = {isa = PBXFileReference; path = "Critical Mass-Prefix.pch"; sourceTree = "<group>"; };
+		839E56EB1447C23D00562CB9 /* Critical Mass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Critical Mass-Prefix.pch"; sourceTree = "<group>"; };
 		839E56EE1447C23D00562CB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		839E56F11447C23D00562CB9 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		839E56F31447C23D00562CB9 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
