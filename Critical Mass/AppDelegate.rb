@@ -7,15 +7,15 @@
 #
 
 class AppDelegate
-    attr_accessor :window, :power_source_label, :status_label, :status_detail_label, :battery_percent_label, :battery_level
+    attr_accessor :window, :power_source_label, :status_image
+    attr_accessor :status_label, :status_detail_label, :battery_percent_label, :battery_level
     
     def applicationDidFinishLaunching(a_notification)
         window.level = NSFloatingWindowLevel
-        @hide = 4
-        
+        @hide = 1000
+
         tick
         @timer = NSTimer.scheduledTimerWithTimeInterval 1, target:self, selector: :tick, userInfo:nil, repeats:true
-
     end
     
     def tick
@@ -34,10 +34,12 @@ class AppDelegate
         
         if status[:status] == "discharging" and percent.to_i <= 5
             status_label.stringValue = "Low battery"
+            status_image.setImage NSImage.imageNamed("light-red")
             status_detail_label.stringValue = "Quick! Hurry up and plug in!"
             window.orderFront self
         elsif status[:source] == "AC Power" and @hide < 0 # no longer starting up
             status_label.stringValue = "Charging"
+            status_image.setImage NSImage.imageNamed("light-green")
             status_detail_label.stringValue = "Phew, you're safe for now."
             @hide = 3
         end
